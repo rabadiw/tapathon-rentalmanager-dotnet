@@ -1,0 +1,16 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: rental-manager-dotnet-api
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: rental-manager
+    tanzu.app.live.view: "true"
+    tanzu.app.live.view.application.flavours: steeltoe
+    tanzu.app.live.view.application.name: rental-manager-dotnet-api
+spec:
+  source:
+    git:
+      url: https://github.com/rabadiw/tapathon-rentalmanager-dotnet.git
+      ref:
+        branch: base
