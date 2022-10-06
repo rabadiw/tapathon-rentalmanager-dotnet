@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: rental-manager
+  name: rental-manager-dotnet-api
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=rental-manager"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=rental-manager-dotnet-api"
 spec:
   type: service
   lifecycle: experimental
