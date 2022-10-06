@@ -12,5 +12,6 @@ spec:
   source:
     git:
       url: https://github.com/rabadiw/tapathon-rentalmanager-dotnet.git
+      path: rental-manager
       ref:
         branch: base
